@@ -1,5 +1,5 @@
 {
-  "name": "cmfstore/mediawiki-float",
+  "name": "cmfstore/mediawiki-ext-float",
   "type": "mediawiki-extension",
   "description": "MediaWiki float elements extension.",
   "license": "MIT",
@@ -23,13 +23,13 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/cmfstore/mediawiki-float/issues",
-    "source": "https://github.com/cmfstore/mediawiki-float"
+    "issues": "https://github.com/cmfstore/mediawiki-ext-float/issues",
+    "source": "https://github.com/cmfstore/mediawiki-ext-float"
   },
   "require": {
     "php": ">=7.2",
     "composer/installers": "^1.0.1",
-    "cmfstore/mediawiki-kernel": "*"
+    "cmfstore/mediawiki-ext-kernel": "*"
   },
   "autoload": {
     "classmap": [
