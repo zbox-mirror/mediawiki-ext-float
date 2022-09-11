@@ -6,7 +6,7 @@
     "[https://z17.cx/ z17 CX]",
     "..."
   ],
-  "url": "https://github.com/cmfstore",
+  "url": "https://z17.dev/",
   "descriptionmsg": "mw-ext-color-desc",
   "license-name": "[https://choosealicense.com/licenses/mit/ MIT]",
   "type": "parserhook",
@@ -17,14 +17,14 @@
     }
   },
   "AutoloadClasses": {
-    "MediaWiki\\Extension\\CMFStore\\MW_EXT_Color": "MW_EXT_Color.class.php"
+    "MediaWiki\\Extension\\Z17DEV\\MW_EXT_Color": "MW_EXT_Color.class.php"
   },
   "Hooks": {
     "ParserFirstCallInit": [
-      "MediaWiki\\Extension\\CMFStore\\MW_EXT_Color::onParserFirstCallInit"
+      "MediaWiki\\Extension\\Z17DEV\\MW_EXT_Color::onParserFirstCallInit"
     ],
     "BeforePageDisplay": [
-      "MediaWiki\\Extension\\CMFStore\\MW_EXT_Color::onBeforePageDisplay"
+      "MediaWiki\\Extension\\Z17DEV\\MW_EXT_Color::onBeforePageDisplay"
     ]
   },
   "MessagesDirs": {
