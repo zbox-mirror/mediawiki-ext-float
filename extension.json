@@ -2,7 +2,7 @@
   "name": "MW_EXT_Color",
   "version": "1.0.0",
   "author": [
-    "[https://z17.dev/ z17 Dev]",
+    "[https://z17.dev/ z17 Development]",
     "[https://z17.cx/ z17 CX]",
     "..."
   ],
@@ -17,14 +17,14 @@
     }
   },
   "AutoloadClasses": {
-    "MediaWiki\\Extension\\Z17DEV\\MW_EXT_Color": "MW_EXT_Color.class.php"
+    "MediaWiki\\Extension\\Z17\\MW_EXT_Color": "MW_EXT_Color.class.php"
   },
   "Hooks": {
     "ParserFirstCallInit": [
-      "MediaWiki\\Extension\\Z17DEV\\MW_EXT_Color::onParserFirstCallInit"
+      "MediaWiki\\Extension\\Z17\\MW_EXT_Color::onParserFirstCallInit"
     ],
     "BeforePageDisplay": [
-      "MediaWiki\\Extension\\Z17DEV\\MW_EXT_Color::onBeforePageDisplay"
+      "MediaWiki\\Extension\\Z17\\MW_EXT_Color::onBeforePageDisplay"
     ]
   },
   "MessagesDirs": {
